@@ -1,0 +1,33 @@
+<!-- Start of Async Callbell Code -->
+<script>
+  window.callbellSettings = {
+    token: "1i5zr23UsY3j5gQUwEdCoRtC"
+  };
+</script>
+<script>
+  (function(){var w=window;var ic=w.callbell;if(typeof ic==="function"){ic('reattach_activator');ic('update',callbellSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Callbell=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://dash.callbell.eu/include/'+window.callbellSettings.token+'.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
+</script>
+<!-- End of Async Callbell Code -->
+<style>
+  /* .vtex-minicart-2-x-overlay .vtex-minicart-2-x-overlay--visible .bg-base--inverted .z-999,
+  .vtex-minicart-2-x-drawer,
+  .vtex-sticky-layout-0-x-wrapper--headerMobile .vtex-sticky-layout-0-x-container--headerMobile,
+  .vtex-sticky-layout-0-x-wrapper--sticky-header div.z-999 */
+  .z-999{
+    z-index: 1000 !important;
+  }
+
+  .vtex-quickorder-3-x-componentContainer
+  div.relative
+  div.z-1  {
+    z-index: 999 !important;
+  }
+  
+  @media (max-width: 640px) {
+    .vtex-quickorder-3-x-componentContainer
+    div.relative
+    div.z-1  {
+      overflow-x: scroll;
+    }
+  }
+</style>
